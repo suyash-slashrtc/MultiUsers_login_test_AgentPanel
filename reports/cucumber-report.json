@@ -1,0 +1,733 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "agent-login-and-ready-state-verification;multiple-agents-login-and-go-ready-sequentially",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Multiple agents login and go ready sequentially",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 604856
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have loaded agents from CSV",
+            "match": {
+              "location": "features/step_definitions/steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10565388
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I am on the login page for agent from row 0",
+            "match": {
+              "location": "features/step_definitions/steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4983197890
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login with credentials from CSV row 0",
+            "match": {
+              "location": "features/step_definitions/steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3114541100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "features/step_definitions/steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 190277127
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on the web endpoint button",
+            "match": {
+              "location": "features/step_definitions/steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5441809764
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I handle microphone permission popup",
+            "match": {
+              "location": "features/step_definitions/steps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3169223100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the menu tab",
+            "match": {
+              "location": "features/step_definitions/steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3464749205
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on the logout button",
+            "match": {
+              "location": "features/step_definitions/steps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5263185704
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be redirected to the login page",
+            "match": {
+              "location": "features/step_definitions/steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 851786130
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 277341597
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "agent-login-and-ready-state-verification;multiple-agents-login-and-go-ready-sequentially",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Multiple agents login and go ready sequentially",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 658028
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have loaded agents from CSV",
+            "match": {
+              "location": "features/step_definitions/steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13185455
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I am on the login page for agent from row 1",
+            "match": {
+              "location": "features/step_definitions/steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3446826917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login with credentials from CSV row 1",
+            "match": {
+              "location": "features/step_definitions/steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2951416187
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "features/step_definitions/steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 862992712
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on the web endpoint button",
+            "match": {
+              "location": "features/step_definitions/steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4631092462
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I handle microphone permission popup",
+            "match": {
+              "location": "features/step_definitions/steps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3206749544
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the menu tab",
+            "match": {
+              "location": "features/step_definitions/steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3466835679
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on the logout button",
+            "match": {
+              "location": "features/step_definitions/steps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5108917517
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be redirected to the login page",
+            "match": {
+              "location": "features/step_definitions/steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 942201071
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 349750458
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "agent-login-and-ready-state-verification;multiple-agents-login-and-go-ready-sequentially",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Multiple agents login and go ready sequentially",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 947881
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have loaded agents from CSV",
+            "match": {
+              "location": "features/step_definitions/steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10765094
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I am on the login page for agent from row 2",
+            "match": {
+              "location": "features/step_definitions/steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3656966896
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login with credentials from CSV row 2",
+            "match": {
+              "location": "features/step_definitions/steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3934512148
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "features/step_definitions/steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 630202095
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on the web endpoint button",
+            "match": {
+              "location": "features/step_definitions/steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6195380578
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I handle microphone permission popup",
+            "match": {
+              "location": "features/step_definitions/steps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3223435384
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the menu tab",
+            "match": {
+              "location": "features/step_definitions/steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3559133406
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on the logout button",
+            "match": {
+              "location": "features/step_definitions/steps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5222406978
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be redirected to the login page",
+            "match": {
+              "location": "features/step_definitions/steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 868946986
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 182073240
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "agent-login-and-ready-state-verification;multiple-agents-login-and-go-ready-sequentially",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Multiple agents login and go ready sequentially",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 612671
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have loaded agents from CSV",
+            "match": {
+              "location": "features/step_definitions/steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11081455
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I am on the login page for agent from row 3",
+            "match": {
+              "location": "features/step_definitions/steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2627560090
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login with credentials from CSV row 3",
+            "match": {
+              "location": "features/step_definitions/steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2950351997
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "features/step_definitions/steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 254922239
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on the web endpoint button",
+            "match": {
+              "location": "features/step_definitions/steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5424354844
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I handle microphone permission popup",
+            "match": {
+              "location": "features/step_definitions/steps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3240160842
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the menu tab",
+            "match": {
+              "location": "features/step_definitions/steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3445094836
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on the logout button",
+            "match": {
+              "location": "features/step_definitions/steps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6084361758
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be redirected to the login page",
+            "match": {
+              "location": "features/step_definitions/steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 924200796
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 149092783
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "agent-login-and-ready-state-verification;multiple-agents-login-and-go-ready-sequentially",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Multiple agents login and go ready sequentially",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 791922
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have loaded agents from CSV",
+            "match": {
+              "location": "features/step_definitions/steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13105174
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I am on the login page for agent from row 4",
+            "match": {
+              "location": "features/step_definitions/steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2703890296
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login with credentials from CSV row 4",
+            "match": {
+              "location": "features/step_definitions/steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4564800716
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "features/step_definitions/steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 550117161
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on the web endpoint button",
+            "match": {
+              "location": "features/step_definitions/steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7240726897
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I handle microphone permission popup",
+            "match": {
+              "location": "features/step_definitions/steps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3195028100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the menu tab",
+            "match": {
+              "location": "features/step_definitions/steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3550838719
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on the logout button",
+            "match": {
+              "location": "features/step_definitions/steps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5084082719
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be redirected to the login page",
+            "match": {
+              "location": "features/step_definitions/steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 758518775
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 146356035
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "agent-login-and-ready-state-verification",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Agent Login and Ready State Verification",
+    "tags": [],
+    "uri": "features/login.feature"
+  }
+]
