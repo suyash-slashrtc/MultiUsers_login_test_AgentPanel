@@ -12,7 +12,7 @@ module.exports = {
       'html:reports/cucumber-report.html',
       'json:reports/cucumber-report.json'
     ],
-    parallel: 10  ,
+    parallel: 500 ,
     worldParameters: {}
   }
 };

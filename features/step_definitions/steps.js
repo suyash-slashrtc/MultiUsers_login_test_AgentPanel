@@ -78,7 +78,8 @@ When('I click on the logout button', async function () {
   
   try {
     // Using the selector from your feature file
-    await this.page.click('span.fa-stack >> i.fa-power-off');
+    await this.page.waitForTimeout(3000);
+    await this.page.click('#logoutStateUpdateBox i.fa-power-off');
     await this.takeScreenshot('after_logout_click');
     await this.page.waitForTimeout(3000);
   } catch (error) {
@@ -97,7 +98,7 @@ Then('I should be redirected to the dashboard', async function () {
 });
 
 Then('I should be redirected to the login page', async function () {
-  const url = this.page.url();
+  const url = await this.page.url();
   expect(url).to.contain('/login');
   
   await this.takeScreenshot('logout_success');
