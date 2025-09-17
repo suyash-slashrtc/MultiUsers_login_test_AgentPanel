@@ -39,7 +39,8 @@ npx cucumber-js --parallel $CSV_ROWS
 # Or run with a specific number of workers
 npx cucumber-js --parallel 12
 
-
+# Or run with a specific number of workers
+npx cucumber-js --parallel 10
 
 
 git remote add origin https://github.com/suyash-slashrtc/MultiUsers_login-_test.git
